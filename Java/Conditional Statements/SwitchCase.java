@@ -28,3 +28,16 @@ public class SwitchCase{
         }
     }
 }
+
+// output:
+
+//          Enter a value :
+// 5
+
+//          Enter b value :
+// 2
+
+//          Enter Operator :
+// /
+
+//          Sum :2.5
