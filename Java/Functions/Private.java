@@ -37,3 +37,25 @@ public class Private {
 
     }
 }
+
+// output:
+//         Hello vikram
+
+
+//          Swapping two nums
+
+
+//          Enter a value : 
+// 45
+
+//          Enter b value : 
+// 56
+
+//          Before swapping:
+
+//         num1 = 45, num2 = 56
+
+//         After swapping inside the function:
+
+
+//         a = 56, b = 45

@@ -15,3 +15,12 @@ public class Parameters {
         return mul;
     }
 }
+
+output:
+         Enter a value :
+3
+
+         Enter a value :
+4
+
+         The product is : 12
