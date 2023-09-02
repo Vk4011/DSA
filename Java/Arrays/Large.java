@@ -14,6 +14,7 @@ public class Large{
     }
     
     public static void main(String[] args) {
+        System.out.println("\n\t Finding the largest value of Array \n");
         Scanner sc=new Scanner(System.in);
         System.out.println("\n\t Enter arrray size  :");
         int s=sc.nextInt();
@@ -32,17 +33,20 @@ public class Large{
 
 
 // output:
-    
-//          Enter arrray size  :
-// 5
+//              Finding the largest value of Array
 
-//          Enter array elements :
-// 2
-// 3
-// 4
-// 1
+
+//          Enter arrray size  :
 // 6
 
-//          The array is : [2, 3, 4, 1, 6]
+//          Enter array elements :
+// 5
+// 3
+// 2
+// 7
+// 8
+// 1
 
-//          The largest value of the array is : 6
+//          The array is : [5, 3, 2, 7, 8, 1]
+
+//          The largest value of the array is : 8
