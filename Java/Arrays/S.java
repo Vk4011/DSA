@@ -19,3 +19,18 @@ public class S {
         System.out.println("\n\t smallest value of the array is : " + small);
     }
 }
+
+// output:
+
+//  Finding smallest value of the array
+
+//          The array :    [  2  5  6  1  8  4  7  ]
+
+//          Size of the array is : 7
+
+
+
+//          smallest value of the array is : 1
+
+
+//

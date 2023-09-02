@@ -23,3 +23,22 @@ public class Small {
     }
     
 }
+
+
+// output:
+
+    
+//          Finding smallest value of the array
+
+//          The array :    [  2  5  6  1  8  4  7  ]
+
+//          Size of the array is : 7
+
+
+// 2147483647
+
+//          smallest value of the array is : 2147483647
+
+
+
+//
