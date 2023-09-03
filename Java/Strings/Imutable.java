@@ -16,7 +16,7 @@ public class Imutable{
     
 }
 }
-        output
+        output 1
 
                 Strings are imutable in java
 
@@ -26,3 +26,14 @@ vikram
 
 
          String is : vikram
+
+        output 2
+
+         Strings are imutable in java
+
+
+         Enter a String :
+Vikram ram
+
+
+         String is : Vikram
