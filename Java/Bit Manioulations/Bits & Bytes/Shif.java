@@ -19,3 +19,6 @@ public class Shif {
 
 
          Formula : a>>b = a/2^b => 6>>1 = 6/2^1 = 3 //
+
+
+         
