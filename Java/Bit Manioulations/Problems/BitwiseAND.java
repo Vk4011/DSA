@@ -12,3 +12,14 @@ public class BitwiseAND {
     }
 }
 
+                output:
+
+                    AND &
+
+                    a: 10
+                    b: 6
+                    Result of a & b: 2
+
+
+
+                    
