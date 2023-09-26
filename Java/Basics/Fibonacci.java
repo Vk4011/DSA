@@ -2,12 +2,14 @@ public class Fibonacci {
     private static long[] fibonacciCache;
     public static void main(String[] args) {
         System.out.println("\n\t Fibonacci serires \n");
-        int n=50;
+        int n=8;
         
         fibonacciCache = new long[n+1];
-
-        System.out.println("\n\t Fibonaci series : "+fibonacci(n));
+        for(int i=0 ; i<=n ;i++){
+             System.out.print("\t "+fibonacci(i)+" ");
         
+        }
+       
         
         
     }
@@ -40,3 +42,8 @@ public class Fibonacci {
 
 
          Fibonaci series : 12586269025
+
+
+               Fibonacci serires 
+
+         0       1       1       2       3       5       8       13      21 
