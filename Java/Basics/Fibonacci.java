@@ -1,8 +1,13 @@
 public class Fibonacci {
+    private static long[] fibonacciCache;
     public static void main(String[] args) {
         System.out.println("\n\t Fibonacci serires \n");
-        int n=5;
+        int n=50;
+        
+        fibonacciCache = new long[n+1];
+
         System.out.println("\n\t Fibonaci series : "+fibonacci(n));
+        
         
         
     }
@@ -10,6 +15,11 @@ public class Fibonacci {
         if(n<=1){// base case 
             return n;
         }
+        if(fibonacciCache[n]!=0){//premitive are not be null
+            return fibonacciCache[n];
+        }
+        long nthFibonacciNumber = (fibonacci(n-1)+fibonacci(n-2));
+        fibonacciCache[n] = nthFibonacciNumber;
         return (fibonacci(n-1)+fibonacci(n-2));
     }
 }
@@ -23,3 +33,10 @@ public class Fibonacci {
 
 
          Fibonaci series : 5
+
+
+        
+         Fibonacci serires
+
+
+         Fibonaci series : 12586269025
