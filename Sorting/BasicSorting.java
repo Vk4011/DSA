@@ -40,6 +40,26 @@ public class BasicSorting {
 
         buble(a);
         printArray(a);
+        System.out.println("\n\t Selction sort \n");
+        Slectionsort(a, s);
+    }
+    private static void Slectionsort(int arr[] ,int n){
+            for(int i=0;i<n-1;i++){
+                int mini=i;
+                for(int j=i+1;j<n;j++){
+                    if(arr[j]<arr[mini]){
+                        mini=i;
+                    }
+                }
+                swaping(arr[i], arr[mini]);
+            }
+            printArray(arr);
+    }
+    private static void swaping(int a,int b){
+        // System.out.println("\n\t Swaping \n");
+        int temp=a;
+        a=b;
+        b=temp;
     }
 }
 
@@ -67,6 +87,46 @@ public class BasicSorting {
 
 
 
+                        output-2:
 
+                        sorting
+
+
+         Enter the array size
+
+12
+
+         Enter array elements
+9
+3
+6
+5
+1
+8
+4
+7
+2
+10
+16
+12
+
+         Array is  a[] : [9, 3, 6, 5, 1, 8, 4, 7, 2, 10, 16, 12]
+
+         sorted array : [  1  2  3  4  5  6  7  8  9  10  12  16  ] 
+
+         Selction sort
+
+
+         sorted array : [  1  2  3  4  5  6  7  8  9  10  12  16  ] 
+
+
+
+
+
+
+
+
+
+         
 
          
