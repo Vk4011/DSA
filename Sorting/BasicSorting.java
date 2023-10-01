@@ -42,6 +42,9 @@ public class BasicSorting {
         printArray(a);
         System.out.println("\n\t Selction sort \n");
         Slectionsort(a, s);
+        System.out.println("\n\t Insertion sort  \n");
+        insertion_sort(a);
+         printArray(a);
     }
     private static void Slectionsort(int arr[] ,int n){
             for(int i=0;i<n-1;i++){
@@ -61,6 +64,19 @@ public class BasicSorting {
         a=b;
         b=temp;
     }
+    private static void insertion_sort(int arr[]){
+        for(int i=1;i<arr.length;i++){
+            int curr=arr[i];
+            int prev = i-1;
+            while(prev>=0 && arr[prev]>curr){
+                arr[prev+1]=arr[prev];
+                prev--;
+            }
+            arr[prev+1]=curr;
+        }
+    }
+
+
 }
 
 
@@ -122,6 +138,35 @@ public class BasicSorting {
 
 
 
+                    output:
+
+                     sorting
+
+
+         Enter the array size
+
+5
+
+         Enter array elements
+6
+1
+4
+2
+8
+
+         Array is  a[] : [6, 1, 4, 2, 8]
+
+         sorted array : [  1  2  4  6  8  ] 
+
+         Selction sort
+
+
+         sorted array : [  1  2  4  6  8  ]
+
+         Insertion sort
+
+
+         sorted array : [  1  2  4  6  8  ]
 
 
 
@@ -129,4 +174,17 @@ public class BasicSorting {
 
          
 
+
+
+
+
+
+
+
+
+
+
+
+
          
+
