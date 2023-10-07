@@ -39,4 +39,16 @@ class Reverse extends Triangle{
             System.out.println("\n");
         }
     }
+   
+}
+class Inverse extends Reverse{
+     public static void  inverse(int n){
+        System.out.println("\n\t Inverse Triangle \n");
+        for(int i=0;i<n;i++){
+            for(int j=0;j<n-i-1;j++){
+                System.out.print("\t *");
+            }
+            System.out.println("\n ");
+        }
+    }
 }

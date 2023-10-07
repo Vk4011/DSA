@@ -9,8 +9,11 @@ public class Main {
         Triangle t = new Triangle();
         t.triangle(n);
         Reverse p=new Reverse();
+       Inverse i=new Inverse();
         p.rev(n);
         p.equ(n);
+        i.inverse(n);
+       
 
     }
 }
@@ -56,6 +59,21 @@ public class Main {
 //  *     *     *     *
 
 
+//  Inverse Triangle
+
+//          *       *       *       *       *       *
+
+//          *       *       *       *       *
+
+//          *       *       *       *
+
+//          *       *       *
+
+//          *       *
+
+//          *
 
 
        
+
+
