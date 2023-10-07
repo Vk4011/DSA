@@ -13,6 +13,7 @@ public class Main {
         p.rev(n);
         p.equ(n);
         i.inverse(n);
+        i.sss(n);
        
 
     }
@@ -75,5 +76,20 @@ public class Main {
 
 
        
+        //  Space Star Space
+
+        //                         *        
 
 
+
+        //                 *       *       *
+
+
+        //         *       *       *       *       *
+
+        // *       *       *       *       *       *       *
+
+
+
+
+        

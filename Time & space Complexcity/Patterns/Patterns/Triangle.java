@@ -39,6 +39,21 @@ class Reverse extends Triangle{
             System.out.println("\n");
         }
     }
+    public static void sss(int n){
+        System.out.println("\n\t Space Star Space \n");
+        for(int i=0;i<n;i++){
+            for(int j=0;j<n-i-1;j++){
+                System.out.print("\t ");
+            }
+            for(int j=0;j<2*i+1;j++){
+                System.out.print("\t*");
+            }
+            for(int j=0;j<n-i-1;j++){
+                System.out.println("\t ");
+            }
+            System.out.print("\n");
+        }
+    }
    
 }
 class Inverse extends Reverse{
