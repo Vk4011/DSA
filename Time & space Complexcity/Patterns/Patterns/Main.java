@@ -14,6 +14,7 @@ public class Main {
         p.equ(n);
         i.inverse(n);
         i.sss(n);
+        i.SsS(n);
        
 
     }
@@ -92,4 +93,4 @@ public class Main {
 
 
 
-        
+

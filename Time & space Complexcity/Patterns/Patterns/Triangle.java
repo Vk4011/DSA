@@ -66,4 +66,19 @@ class Inverse extends Reverse{
             System.out.println("\n ");
         }
     }
+    public static void SsS(int n){
+        System.out.println("\n\t Inverse SSS \n");
+        for(int i=0;i<n;i++){
+            for(int j=0;j<i;j++){
+                System.out.print("\t ");
+            }
+            for(int j=0;j<((2*n)-(2*i+1));i++){
+                System.out.print("\t *");
+            }
+            for(int j=0;j<i;j++){
+                System.out.print("\t ");
+            }
+            System.out.print("\n");
+        }
+    }
 }
