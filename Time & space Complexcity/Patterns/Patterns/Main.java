@@ -15,6 +15,8 @@ public class Main {
         i.inverse(n);
         i.sss(n);
         i.SsS(n);
+        Num v=new Num();
+        v.tri(n);
        
 
     }
