@@ -17,7 +17,7 @@ public class Main {
         i.SsS(n);
         Num v=new Num();
         v.tri(n);
-       
+       v.numr(n);
 
     }
 }
@@ -95,4 +95,21 @@ public class Main {
 
 
 
+            
+        //  Number triangle
 
+
+
+
+        // 1
+
+        // 2       3
+
+        // 4       5       6
+
+        // 7       8       9       10
+
+
+
+
+        
