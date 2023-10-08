@@ -18,6 +18,8 @@ public class Main {
         Num v=new Num();
         v.tri(n);
        v.numr(n);
+       Alpha a=new Alpha();
+       a.tri(n);
 
     }
 }
@@ -108,6 +110,19 @@ public class Main {
         // 4       5       6
 
         // 7       8       9       10
+
+
+
+        //     Aplahabet Traingle
+
+        //  A       B
+        //  A       B       C
+        //  A       B       C       D
+        //  A       B       C       D       E
+        //  A       B       C       D       E       F
+        //  A       B       C       D       E       F       G
+        //  A       B       C       D       E       F       G       H
+
 
 
 
