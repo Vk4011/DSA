@@ -20,6 +20,9 @@ public class Main {
        v.numr(n);
        Alpha a=new Alpha();
        a.tri(n);
+        Inv Abc=new Inv();
+        Abc.cha(n);
+        
 
     }
 }
@@ -122,6 +125,15 @@ public class Main {
         //  A       B       C       D       E       F
         //  A       B       C       D       E       F       G
         //  A       B       C       D       E       F       G       H
+
+
+
+
+// E
+// E       D
+// E       D       C
+// E       D       C       B
+// E       D       C       B       A
 
 
 

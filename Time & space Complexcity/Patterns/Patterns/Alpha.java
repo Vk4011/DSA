@@ -9,3 +9,16 @@ public class Alpha {
         }
     }
 }
+
+class Inv extends Alpha{
+   public static void cha(int n) {
+    for (int i = 0; i < n; i++) {
+        char startChar = (char) ('E' - i);
+        for (char ch = 'E'; ch >= startChar; ch--) {
+            System.out.print(ch + "\t");
+        }
+        System.out.println();
+    }
+}
+
+}
