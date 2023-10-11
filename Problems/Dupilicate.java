@@ -1,11 +1,22 @@
 import java.util.Arrays;
 
 public class Dupilicate {
+    private static void d(int arr[]){
+        int i=0;
+        for(int j=1;j<arr.length;j++){
+            if(arr[j]!=arr[i]){
+                arr[i+1]=arr[j];
+                i++;
+            }
+        }
+        System.out.println("\n\t Array is : "+Arrays.toString(arr));
+    }
     public static void main(String[] args) {
         System.out.println("\n\t Dupilicate number in array \n");
         int arr[] = {2,3,1,1,4,5};
         System.out.println("\n\t Array is  : "+Arrays.toString(arr));
-        dup(arr);
+        // dup(arr);
+        d(arr);
 
     }
     private static void dup(int arr[]){
@@ -22,12 +33,12 @@ public class Dupilicate {
     
 }
 
-            Dupilicate number in array 
+        //     Dupilicate number in array 
 
 
-         Array is  : [2, 3, 1, 1, 4, 5]
+        //  Array is  : [2, 3, 1, 1, 4, 5]
 
-         The array is : [2, 3, 1, 4, 5, 5]
+        //  The array is : [2, 3, 1, 4, 5, 5]
 
 
 
