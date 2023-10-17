@@ -29,3 +29,32 @@ public class Main{
 
     }
 }
+
+
+
+                    output:
+
+                     ArrayList is inbuilt data structure
+         java collection framework
+
+
+         list : [1, 2, 3, 4, 5, 6]
+
+         size : 6
+
+         Get element O(1) : 5
+
+         remove is tc O(n) : [1, 2, 3, 4, 5]
+
+         set element O(n) : [1, 2, 3, 4, 10]
+
+         Contains O(n) : true
+
+         List is : [1, 2, 3, 4, 10]
+
+
+
+
+
+
+         
