@@ -21,13 +21,12 @@ public class Reverse {
 
     }
 }
-                output
+        //         output
 
-                 Reverse ArrayList
+        //          Reverse ArrayList
 
 
-         ArrayList is list : [0, 2, 4]
+        //  ArrayList is list : [0, 2, 4]
 
-         Reversed List : [4, 2, 0]
+        //  Reversed List : [4, 2, 0]
 
-         
