@@ -15,10 +15,13 @@ public class SumofN {
 }
 
 
+
         //     Print sum of first n natural numbers 
 
 
         //  n(n+1)/2 = 15
 
 
-        
+
+
+
