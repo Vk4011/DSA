@@ -1,5 +1,5 @@
 public class Occurence {
-    public static void main(String[] args) {
+    public static void main(StringReverse[] args) {
         System.out.println("\n\t WAF to find the first Occurence of an Element in Array \n");
         int arr[] = {8,3,6,9,5,10,2,5,3};
         System.out.print("\n\t Array : [ ");

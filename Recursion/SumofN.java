@@ -1,5 +1,5 @@
 public class SumofN {
-    public static void main(String[] args) {
+    public static void main(StringReverse[] args) {
         System.out.println("\n\t Print sum of first n natural numbers \n");
         int n=5;
         System.out.println("\n\t n(n+1)/2 = "+sum(n));

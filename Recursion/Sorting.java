@@ -2,7 +2,7 @@
 import java.util.Scanner;
 
 public class Sorting {
-    public static void main(String[] args) {
+    public static void main(StringReverse[] args) {
         System.out.println("\n\t Check if a given array is sorted or not \n");
         Scanner scanner = new Scanner(System.in);
         System.out.println("\n\t Enter array size : ");

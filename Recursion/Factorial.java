@@ -1,5 +1,5 @@
 public class Factorial {
-    public static void main(String[] args) {
+    public static void main(StringReverse[] args) {
         System.out.println("\n\t Factorial of a number \n");
         int n=5;
         // fact(n);

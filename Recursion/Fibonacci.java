@@ -1,5 +1,5 @@
 public class Fibonacci {
-    public static void main(String[] args) {
+    public static void main(StringReverse[] args) {
         System.out.println("\n\t Print Nth fibonacci number \n");
         System.out.println("\n\t fib : 0 1 1 2 3 5 8 13 21.......... ");
         int n=5;

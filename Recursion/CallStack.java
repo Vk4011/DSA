@@ -1,5 +1,5 @@
 public class CallStack {
-    public static void main(String[] args) {
+    public static void main(StringReverse[] args) {
         System.out.println("\n\t Call Stack \n");
         int n=1;
         iterations(n);

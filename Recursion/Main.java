@@ -44,7 +44,7 @@
 // step 3 : inner fun call
 
 public class Main{
-    public static void main(String[] args) {
+    public static void main(StringReverse[] args) {
         System.out.println("\n\t Print numbers from n to 1 (Decreasing Order) \n");
         for(int i=10;i>=1;i--){
             System.out.print(" "+i+" ");

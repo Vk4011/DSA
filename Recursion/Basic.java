@@ -8,7 +8,7 @@ public class Basic {
         System.out.println(n+" ");
 
     }
-    public static void main(String[] args) {
+    public static void main(StringReverse[] args) {
         System.out.println("\n\t Recursion Basic \n");
         int n=10;
         printN(n);
