@@ -25,4 +25,11 @@ public class Prime extends Main {
 
 
 
+    // Time complexcity :
+    
+    // Hp => n(1/2+1/3+1/5+1/7------)
+    // log(log N)
+    // TC = O(N*(log log(N))
+
+
     
