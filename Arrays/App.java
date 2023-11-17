@@ -15,6 +15,8 @@ public class App {
         int l=arr.length;
         System.out.println("\n\t Lenght of the array is : "+l);
         parr(arr);
+        App a=new App();
+        a.printarr(arr);
 
 
     }
@@ -27,9 +29,36 @@ public class App {
 
     }
     
+    void printarr(int a[]){
+        System.out.print("\n\t Elements in Array : [ ");
+        for(int e:a){
+            System.out.print(e+" ");
+        }
+        System.out.print(" ]\n");
+    }
 }
 
     //   array : [6, 7, 8, 3, 4]
     //      Lenght of the array is : 5
 
     //      arr[] : [ 0 1 2 3 4 ]
+
+
+/*       Enter the size of the array : 5
+
+          Enter the elment of the array :
+ 2
+ 5
+ 6
+ 7
+ 4
+
+          array : [2, 5, 6, 7, 4]
+          Lenght of the array is : 5
+
+         arr[] : [ 0 1 2 3 4 ]
+
+         Elements in Array : [ 2 5 6 7 4  ] */
+
+
+         
