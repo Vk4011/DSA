@@ -8,11 +8,7 @@ public class ReverseArray {
             arr[i] = sc.nextInt();
             System.out.print(arr[i] + " ");
         }
-        System.out.print("\n\t Array: [ ");
-        for (int e : arr) {
-            System.out.print(e + " ");
-        }
-        System.out.print("]\n");
+       
     }
 
     public static void rev(int[] arr) {
@@ -33,10 +29,11 @@ public class ReverseArray {
         System.out.print("\n\t Enter array size n: ");
         int n = sc.nextInt();
         int[] arr = new int[n];
-        
+        ReverseArray a=new ReverseArray(); 
         pae(arr); // Call to input array elements and display them
+        a.printArr(arr);
         rev(arr); // Call to reverse the array
-
+        a.printArr(arr);
         System.out.print("\n\t Reversed Array: [ ");
         for (int e : arr) {
             System.out.print(e + " ");
@@ -44,6 +41,14 @@ public class ReverseArray {
         System.out.print("]\n");
 
         sc.close(); // Close the Scanner object
+    }
+     void printArr(int[] arr) {
+         System.out.print("\n\t Array: [ ");
+        for (int e : arr) {
+            System.out.print(e + " ");
+        }
+        System.out.print("]\n");
+        
     }
 }
 
