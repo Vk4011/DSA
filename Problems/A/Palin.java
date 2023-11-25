@@ -38,6 +38,7 @@ public class Palin {
 
 
 
+
     //  Enter the digit : 12
 
     //      digit : 33
@@ -46,4 +47,3 @@ public class Palin {
 
 
 
-            
