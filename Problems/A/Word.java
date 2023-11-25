@@ -5,19 +5,19 @@ import java.util.Scanner;
 public class Word {
 
     static List<String> splitString(String str) {
-        List<String> words = new ArrayList<>();
+        ArrayList<String> words = new ArrayList<>();
         StringBuilder word = new StringBuilder();
         for (int i = 0; i < str.length(); i++) {
             char ch = str.charAt(i);
             if (ch == ' ') {
                 words.add(word.toString());
-                word.setLength(0); // Clear StringBuilder
+                word.setLength(0); 
             } else {
-                // build the word
+    
                 word.append(ch);
             }
         }
-        // pushing the last word
+       
         words.add(word.toString());
         return words;
     }
@@ -34,22 +34,22 @@ public class Word {
             rotatedWords.add(words.get(i));
         }
 
-        // build the output string
+
         StringBuilder rotatedString = new StringBuilder();
         for (String word : rotatedWords) {
             rotatedString.append(word).append(' ');
         }
-        rotatedString.setLength(rotatedString.length() - 1); // Remove trailing space
+        rotatedString.setLength(rotatedString.length() - 1); 
         return rotatedString.toString();
     }
 
     public static void main(String[] args) {
-        Scanner scanner = new Scanner(System.in);
-        System.out.print("Enter the string: ");
-        String str = scanner.nextLine();
-        System.out.print("Enter the number of rotations: ");
-        int n = scanner.nextInt();
+        Scanner sc = new Scanner(System.in);
+        System.out.print("\n\tEnter the string : ");
+        String str = sc.nextLine();
+        System.out.print("\n\tEnter the number of rotations : ");
+        int n = sc.nextInt();
         String ans = solve(str, n);
-        System.out.println(ans);
+        System.out.println("\n\tAfter rotation : "+ans);
     }
 }
