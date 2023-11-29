@@ -23,3 +23,40 @@ public class Bank {
 
 //          Please Enter the amount : five   
 // Exception in thread "main" java.util.InputMismatchException
+
+
+
+
+// Connection established with bank 
+
+
+//          Please Enter the amount : 500
+
+//          Amount paid = 500$
+
+//          Transcation completed
+
+
+//          Your are Scammer Acess denied ...
+
+
+
+
+
+// Connection established with bank 
+
+
+//          Please Enter the amount : five
+
+//          Invalid input Exception handled
+
+
+//          Your are Scammer Acess denied ...
+
+
+
+
+
+
+
+
