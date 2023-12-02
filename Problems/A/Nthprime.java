@@ -47,3 +47,12 @@ public class Nthprime {
         //        Enter the value of N: 6
 
         //  The 6th prime number is: 13
+
+
+
+
+
+
+
+
+        
