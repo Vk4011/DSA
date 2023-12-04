@@ -27,3 +27,12 @@ public class Rotating {
             System.arraycopy(temp, 0, arr,0,n);
     }
 }
+
+
+
+
+
+
+
+
+
